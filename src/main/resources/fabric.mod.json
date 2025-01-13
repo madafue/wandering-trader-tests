@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wandering-trader-tests",
+	"version": "${version}",
+	"name": "Wandering Trader Tests",
+	"description": "Lets you spawn in Wandering Traders naturally with a command.",
+	"authors": [
+		"madafue"
+	],
+	"contact": {
+		"homepage": "https://madafue.github.io/",
+		"sources": "https://github.com/madafue/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wandering-trader-tests/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.madafue.WanderingTraderTests"
+		],
+		"fabric-datagen": [
+			"com.madafue.WanderingTraderTestsDataGenerator"
+		],
+		"client":[
+			"com.madafue.WanderingTraderTestsClient"
+		]
+	},
+	"mixins": [
+		"wandering-trader-tests.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
