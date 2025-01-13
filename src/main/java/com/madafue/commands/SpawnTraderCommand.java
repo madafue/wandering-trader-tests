@@ -25,7 +25,7 @@ public class SpawnTraderCommand {
     private static final int MAX_TRADER_SPAWN_RADIUS = 48;
 
     private static int executeCommand(CommandContext<ServerCommandSource> context) {
-        context.getSource().sendFeedback(() -> Text.literal("Loading..."), false);
+//        context.getSource().sendFeedback(() -> Text.literal("Loading..."), false);
         ServerCommandSource source = context.getSource();
         ServerWorld world = source.getWorld();
 
