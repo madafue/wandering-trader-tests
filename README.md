@@ -1,6 +1,6 @@
 Ever wanted to summon a wandering trader just like the vanilla game, llamas and all?
 
-..Probably not, let's be honest, but you can do it with this mod!
+Probably not, let's be honest, but you can do it with this mod!
 
 
 ## __Commands__
